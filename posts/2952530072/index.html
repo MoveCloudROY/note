@@ -10,6 +10,7 @@
 <h2 id="BZOJ4424-CF19E-Fairy（大水题）"><a href="#BZOJ4424-CF19E-Fairy（大水题）" class="headerlink" title="BZOJ4424/CF19E    Fairy（大水题）"></a>BZOJ4424/CF19E    Fairy（大水题）</h2><h3 id="题目描述-1"><a href="#题目描述-1" class="headerlink" title="题目描述"></a>题目描述</h3><blockquote>
 <p>   给定 $N$ 个点，$M$ 条边的无向图，可以从图中删除一条边，问删除哪些边可以使图变成一个二分图。</p>
 </blockquote>
+<p>$$<br>1 \leq n,m \leq 1000000<br>$$</p>
 <h3 id="题解-1"><a href="#题解-1" class="headerlink" title="题解"></a>题解</h3><p>首先二分图是没有奇环的，我们要删边来去掉奇环</p>
 <p>只有一条边被所有的奇环覆盖时才能去删它，这样才能保证没有奇环</p>
 <p>如果这条边被偶环覆盖的话，无论怎么删都会出现一个新奇环，这条边是不能删的</p>
@@ -21,6 +22,7 @@
 <p>有一个有 $N$ 个点的由两棵不同的树构成的复合图(无重边)。</p>
 <p>问最少切断几条边，可以使原图不联通。并输出方案数</p>
 </blockquote>
+<p>$$<br>1 \leq n \leq 1000000<br>$$</p>
 <h3 id="题解-2"><a href="#题解-2" class="headerlink" title="题解"></a>题解</h3><p>首先切断的边数肯定是 2 ~ 3 </p>
 <p>这是两棵树组成的图，所以只有 $2N-2$ 条边，</p>
 <p>假设切断 4 条边才能保证不联通，那么至少要有 $2N$ 条边，很显然矛盾</p>
