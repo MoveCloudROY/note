@@ -15,6 +15,8 @@
             
             <tag> 题解 </tag>
             
+            <tag> 经验 </tag>
+            
         </tags>
       
     </entry>
@@ -31,6 +33,8 @@
         <tags>
             
             <tag> 题解 </tag>
+            
+            <tag> 经验 </tag>
             
         </tags>
       
@@ -49,9 +53,7 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> 算法 </tag>
-            
-            <tag> stl </tag>
+            <tag> STL </tag>
             
         </tags>
       
@@ -67,8 +69,6 @@
       
       
         <tags>
-            
-            <tag> 算法 </tag>
             
             <tag> 数论 </tag>
             
@@ -91,7 +91,9 @@
             
             <tag> 模版 </tag>
             
-            <tag> FHQ Treap </tag>
+            <tag> 平衡树 </tag>
+            
+            <tag> FHQ </tag>
             
         </tags>
       
@@ -112,6 +114,8 @@
             
             <tag> 分块 </tag>
             
+            <tag> 暴力 </tag>
+            
         </tags>
       
     </entry>
@@ -131,7 +135,9 @@
             
             <tag> 模版 </tag>
             
-            <tag> ZKW线段树 </tag>
+            <tag> 线段树 </tag>
+            
+            <tag> ZKW </tag>
             
         </tags>
       
@@ -152,7 +158,7 @@
             
             <tag> 模版 </tag>
             
-            <tag> 普通线段树 </tag>
+            <tag> 线段树 </tag>
             
         </tags>
       
@@ -173,6 +179,8 @@
             
             <tag> 算法 </tag>
             
+            <tag> 最小生成树 </tag>
+            
         </tags>
       
     </entry>
@@ -189,25 +197,6 @@
         <tags>
             
             <tag> 模版 </tag>
-            
-            <tag> 算法 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>Algorithm&amp;Template</title>
-      <link href="/posts/63125/"/>
-      <url>/posts/63125/</url>
-      
-        <content type="html"><![CDATA[<ul><li><a href="/2018/07/24/最小生成树/">最小生成树</a></li><li><a href="/2018/07/26/Segment-Tree-PART-ONE/">普通线段树</a></li><li><a href="/2018/07/27/Segment-Tree-ZKW-PART-TWO/">zkw线段树</a></li><li><a href="/2018/07/29/莫队/">莫队</a></li><li><a href="/404">KMP字符串匹配</a></li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 归档 </tag>
             
         </tags>
       
