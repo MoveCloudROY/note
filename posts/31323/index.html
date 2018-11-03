@@ -1,6 +1,7 @@
 <!DOCTYPE html><html lang="zh-CN"><head><meta name="generator" content="Hexo 3.8.0"><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description"><title>Balance Tree(FHQ Treap) | ROY1994</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/normalize/8.0.0/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Balance Tree(FHQ Treap)</h1><a id="logo" href="/.">ROY1994</a><p class="description">最菜的OIer</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Balance Tree(FHQ Treap)</h1><div class="post-meta">Aug 13, 2018</div><a class="disqus-comment-count" href="/posts/31323/#vcomment"><span class="valine-comment-count" data-xid="/posts/31323/"></span><span> 条评论</span></a><div class="post-content"><blockquote>
 <p>听说这个平衡树很<del>好写</del>，所以我尝试去学一下这个<del>毒瘤</del>的数据结构</p>
 </blockquote>
+<a id="more"></a>
 <h1 id="FHQ-Treap简介"><a href="#FHQ-Treap简介" class="headerlink" title="FHQ Treap简介"></a>FHQ Treap简介</h1><p>FHQ Treap只有两种主要的操作</p>
 <ul>
 <li>分离（split） 把一棵树分成两个树</li>
@@ -16,7 +17,6 @@
 <li>求 $wei$ 的后继</li>
 <li>反转区间</li>
 </ol>
-<a id="more"></a>
 <h1 id="树的节点"><a href="#树的节点" class="headerlink" title="树的节点"></a>树的节点</h1><p>FHQ Treap 的节点维护的 普通Treap 维护的大致相同，我们通过一个结构体来保存信息<br>相关含义如下：</p>
 <ul>
 <li><code>size</code> —&gt; 子树（包括自身）的大小</li>
